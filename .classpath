@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SlippyJ-Core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FengGUI"/>
+	<classpathentry kind="lib" path="/jme/lib/jogl/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="/jme/lib/jogl/jogl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="jme/lib/jogl/native/macosx"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
