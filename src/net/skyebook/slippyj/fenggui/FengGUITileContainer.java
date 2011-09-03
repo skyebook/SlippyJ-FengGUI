@@ -77,4 +77,13 @@ public class FengGUITileContainer<Tile> extends Container implements TileContain
 		return false;
 	}
 
+	@Override
+	public void removeAllTiles() {
+		for(IWidget widget : getWidgets()){
+			if(widget instanceof FengGUITile){
+				removeWidget(widget);
+			}
+		}
+	}
+
 }
